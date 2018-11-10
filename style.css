@@ -2,13 +2,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+
+
 }
 body {
   background: pink;
 }
 .wrapper {
   width: 100%;
-  height: 100vh;
+  height: 1000px;
   padding: 30px;
   background: red;
 
@@ -21,27 +24,54 @@ body {
 }
 .videobar {
   display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  height: 150px;
-  background-color: blue;
+  margin-bottom: 30px;
 }
 .video {
+  position: relative;
   width: 25%;
-  height: 150px;
-  background-color: yellow;
+  height: auto;
+  border: 5px solid black;
 
 }
+.video img {
+  max-width: 100%;
+  height: auto;
+
+}
+.playbutton a {
+  position: absolute;
+  display: inline-block;
+  text-decoration: none;
+  background: black;
+  color: white;
+  border: 2px solid white;
+  border-radius: 15%;
+  padding: 5px 10px;
+  bottom:30px;
+  right: 10px;
+}
+.text {
+  position: absolute;
+  font-size: 15px;
+  color: white;
+  bottom: 40px;
+  left: 10px;
+}
+
 .sidebar_lft {
   float: left;
   width: 15%;
-  height: 500px;
+  height: 700px;
   background-color: brown;
 
 }
 .center_content {
   float: left;
   width: 50%;
-  height: 500px;
+  height: 700px;
   background-color: orange;
   padding: 20px;
 }
@@ -54,7 +84,7 @@ body {
 .rgh_content {
   float: left;
   width: 35%;
-  height: 500px;
+  height: 700px;
   background-color: violet;
   padding: 20px;
 }
