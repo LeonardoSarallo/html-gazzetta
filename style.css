@@ -31,6 +31,7 @@ body {
   height: auto;
 }
 .video1 {
+  position: relative;
   background-image: url("https://images2.gazzettaobjects.it/methode_image/Video/2018/11/10/Calcio/Foto%20Calcio%20-%20Trattate/07c5e13fa0e633b382c5d088b3835257_169_m.JPG?v=20181110153449");
   background-size: cover;
   background-repeat: no-repeat;
@@ -38,6 +39,12 @@ body {
   border: 5px solid black;
   align-items: flex-end;
 
+}
+.text {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: white;
 }
 .video2 {
   background-image: url("https://images2.gazzettaobjects.it/methode_image/Video/2018/11/09/Calcio/Foto%20Calcio%20-%20Trattate/c0a28cf6633764867f49a9f26dcaff1f_169_m.jpg?v=20181110143743");
