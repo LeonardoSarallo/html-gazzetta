@@ -101,7 +101,7 @@ body {
 .sidebar_lft {
   float: left;
   width: 15%;
-  height: 600px;
+  height: 800px;
   background-color: #fde9eb;
   text-transform: uppercase;
   border-right: 1px solid black;
@@ -110,15 +110,25 @@ body {
 }
 .sidebar_lft a {
   text-decoration: none;
-  margin-right: 10px;
   color: black;
+  font-size: 15px;
 }
-
+.sidebar_lft li {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
 .home {
   width: 100%;
   height: auto;
   border-bottom: 1px solid black;
-  margin-top: 40px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+
+}
+.homepage {
+  display: inline-block;
+  margin-left: 10px;
+  font-weight: 800;
 }
 
 .center_content {
@@ -126,7 +136,7 @@ body {
   width: 50%;
   height: 600px;
   background-color: orange;
-  padding: 20px;
+  padding: 0 20px;
 }
 .maintitle {
   width: 100%;
@@ -157,7 +167,7 @@ body {
   width: 35%;
   height: 600px;
   background-color: violet;
-  padding: 20px;
+  padding: 0 20px;
 }
 .upcontent {
   width: 100%;
