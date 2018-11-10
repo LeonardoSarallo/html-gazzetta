@@ -4,15 +4,13 @@
   box-sizing: border-box;
 }
 body {
-  background: #fde9eb;
-  font-family: 'Roboto', sans-serif;
-
+  background: pink;
 }
 .wrapper {
   width: 100%;
-  height: 1500px;;
-  padding-top: 30px;
-
+  height: 100vh;
+  padding: 30px;
+  background: red;
 
 }
 .container {
@@ -25,173 +23,40 @@ body {
   display: flex;
   width: 100%;
   height: 150px;
-
-
+  background-color: blue;
 }
 .video {
   width: 25%;
-  height: auto;
-}
-.video1 {
-  position: relative;
-  background-image: url("https://images2.gazzettaobjects.it/methode_image/Video/2018/11/10/Calcio/Foto%20Calcio%20-%20Trattate/07c5e13fa0e633b382c5d088b3835257_169_m.JPG?v=20181110153449");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  border: 5px solid black;
+  height: 150px;
+  background-color: yellow;
 
-}
-.text {
-  position: absolute;
-  bottom: 20px;
-  left: 10px;
-  color: white;
-}
-.video2 {
-  position: relative;
-  background-image: url("https://images2.gazzettaobjects.it/methode_image/Video/2018/11/09/Calcio/Foto%20Calcio%20-%20Trattate/c0a28cf6633764867f49a9f26dcaff1f_169_m.jpg?v=20181110143743");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  border: 5px solid black;
-
-}
-.video3 {
-  position: relative;
-  background-image: url("https://images2.gazzettaobjects.it/methode_image/Video/2018/11/10/Calcio/Foto%20Calcio%20-%20Trattate/324fe12024aa324266ced20717c5b29b_169_m.jpg?v=20181110153750");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  border: 5px solid black;
-}
-.video4 {
-  position: relative;
-  background-image: url("https://images2.gazzettaobjects.it/methode_image/Video/2018/11/06/Calcio/Foto%20Calcio%20-%20Trattate/e4ac266e-e19a-11e8-8d4f-3dc2ea2bdbe9_169_m.jpg?v=20181110143823");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  border: 5px solid black;
-}
-.video5 {
-  position: relative;
-  background-image: url("https://images2.gazzettaobjects.it/methode_image/Video/2018/11/09/Altri%20Mondi/Foto%20Altri%20Mondi%20-%20Trattate/055a7bb62316b836e9855478071195ac_169_m.jpg?v=20181110114331");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  border: 5px solid black;
-}
-.videobar a {
-  text-decoration: none;
-  background: black;
-  font-size: 15px;
-  color: white;
-  padding: 5px 10px;
-  border: 2px solid white;
-  border-radius: 20%;
-}
-.icon {
-  position: absolute;
-  bottom: 10px;
-  right: 15px;
-}
-
-.sidebar_lft, .center_content, .rgh_content {
-  margin-top: 40px;
 }
 .sidebar_lft {
   float: left;
   width: 15%;
-  height: 800px;
-  background-color: #fde9eb;
-  text-transform: uppercase;
-  border-right: 1px solid black;
-  border-top: 3px solid black;
+  height: 500px;
+  background-color: brown;
 
-}
-.sidebar_lft a {
-  text-decoration: none;
-  color: black;
-  font-size: 15px;
-}
-.sidebar_lft a:hover {
-  color: #f27800;
-}
-.sidebar_lft ul {
-  list-style: none;
-}
-.sidebar_lft li {
-  margin-bottom: 10px;
-  font-weight: 500;
-}
-.home {
-  width: 100%;
-  height: auto;
-  border-bottom: 1px solid black;
-  margin-top: 10px;
-  padding-bottom: 10px;
-
-}
-.homepage {
-  display: inline-block;
-  margin-left: 10px;
-  font-weight: 800;
-}
-.calcio {
-  margin-top: 10px;
 }
 .center_content {
   float: left;
   width: 50%;
-  height: 600px;
+  height: 500px;
   background-color: orange;
-  padding: 0 20px;
+  padding: 20px;
 }
 .maintitle {
-  position: relative;
-  background-image: url("https://images2.gazzettaobjects.it/methode_image/2018/11/10/Calcio/Foto%20Calcio%20-%20Trattate/0467822ccf89dd579a9e676d24758494_43_l.jpg?v=20181110183820");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
   width: 100%;
   height: 55%;
   background-color: green;
 
 }
-.maintext {
-  position: absolute;
-  bottom: 40px;
-  color: white;
-  left: 30px;
-  font-size: 30px;
-
-}
-.spantitle {
-  font-size: 50px;
-}
-.maintitledown {
-  width: 100%;
-  height: 45%;
-  background: white;
-}
-.main_cnt_left {
-  float: left;
-  width: 50%;
-  height: 100%;
-  background: lightblue;
-}
-.main_cnt_rgh {
-  float: left;
-  width: 50%;
-  height: 100%;
-  background: black
-
-}
 .rgh_content {
   float: left;
   width: 35%;
-  height: 600px;
+  height: 500px;
   background-color: violet;
-  padding: 0 20px;
+  padding: 20px;
 }
 .upcontent {
   width: 100%;
