@@ -53,18 +53,15 @@ body {
   background-position: 50% 50%;
   border: 5px solid black;
 
-
-
 }
-.textblock {
- position: absolute;
- bottom: 10px;
- right: 20px;
- background-color: transparent;
- color: white;
- padding-left: 10px;
- padding-right: 10px;
+.video3 {
+  background-image: url("https://images2.gazzettaobjects.it/methode_image/Video/2018/11/10/Calcio/Foto%20Calcio%20-%20Trattate/324fe12024aa324266ced20717c5b29b_169_m.jpg?v=20181110153750");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  border: 5px solid black;
 }
+
 
 .sidebar_lft, .center_content, .rgh_content {
   margin-top: 40px;
