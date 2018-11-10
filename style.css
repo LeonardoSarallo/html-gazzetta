@@ -37,16 +37,16 @@ body {
   background-repeat: no-repeat;
   background-position: 50% 50%;
   border: 5px solid black;
-  align-items: flex-end;
 
 }
 .text {
   position: absolute;
-  bottom: 10px;
+  bottom: 20px;
   left: 10px;
   color: white;
 }
 .video2 {
+  position: relative;
   background-image: url("https://images2.gazzettaobjects.it/methode_image/Video/2018/11/09/Calcio/Foto%20Calcio%20-%20Trattate/c0a28cf6633764867f49a9f26dcaff1f_169_m.jpg?v=20181110143743");
   background-size: cover;
   background-repeat: no-repeat;
@@ -55,13 +55,43 @@ body {
 
 }
 .video3 {
+  position: relative;
   background-image: url("https://images2.gazzettaobjects.it/methode_image/Video/2018/11/10/Calcio/Foto%20Calcio%20-%20Trattate/324fe12024aa324266ced20717c5b29b_169_m.jpg?v=20181110153750");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
   border: 5px solid black;
 }
-
+.video4 {
+  position: relative;
+  background-image: url("https://images2.gazzettaobjects.it/methode_image/Video/2018/11/06/Calcio/Foto%20Calcio%20-%20Trattate/e4ac266e-e19a-11e8-8d4f-3dc2ea2bdbe9_169_m.jpg?v=20181110143823");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  border: 5px solid black;
+}
+.video5 {
+  position: relative;
+  background-image: url("https://images2.gazzettaobjects.it/methode_image/Video/2018/11/09/Altri%20Mondi/Foto%20Altri%20Mondi%20-%20Trattate/055a7bb62316b836e9855478071195ac_169_m.jpg?v=20181110114331");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  border: 5px solid black;
+}
+.videobar a {
+  text-decoration: none;
+  background: black;
+  font-size: 15px;
+  color: white;
+  padding: 5px 10px;
+  border: 2px solid white;
+  border-radius: 20%;
+}
+.icon {
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+}
 
 .sidebar_lft, .center_content, .rgh_content {
   margin-top: 40px;
