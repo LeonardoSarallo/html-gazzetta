@@ -147,10 +147,26 @@ body {
   padding: 0 20px;
 }
 .maintitle {
+  position: relative;
+  background-image: url("https://images2.gazzettaobjects.it/methode_image/2018/11/10/Calcio/Foto%20Calcio%20-%20Trattate/0467822ccf89dd579a9e676d24758494_43_l.jpg?v=20181110183820");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
   width: 100%;
   height: 55%;
   background-color: green;
 
+}
+.maintext {
+  position: absolute;
+  bottom: 40px;
+  color: white;
+  left: 30px;
+  font-size: 30px;
+
+}
+.spantitle {
+  font-size: 50px;
 }
 .maintitledown {
   width: 100%;
