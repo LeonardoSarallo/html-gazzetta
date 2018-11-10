@@ -113,6 +113,12 @@ body {
   color: black;
   font-size: 15px;
 }
+.sidebar_lft a:hover {
+  color: #f27800;
+}
+.sidebar_lft ul {
+  list-style: none;
+}
 .sidebar_lft li {
   margin-bottom: 10px;
   font-weight: 500;
@@ -130,7 +136,9 @@ body {
   margin-left: 10px;
   font-weight: 800;
 }
-
+.calcio {
+  margin-top: 10px;
+}
 .center_content {
   float: left;
   width: 50%;
