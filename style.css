@@ -28,13 +28,18 @@ body {
   align-items: center;
   width: 100%;
   margin-bottom: 30px;
+  background-color: black;
 }
 .video {
   position: relative;
   width: 25%;
   height: auto;
   border: 3px solid black;
+  transition: 0.5s
 
+}
+.video:hover {
+  transform: scale(1.5,1.5);
 }
 .video img {
   max-width: 100%;
@@ -125,6 +130,7 @@ body {
 .maintitle img {
   max-width: 100%;
   height: auto;
+  filter: brightness(75%);
 }
 .hovertransition  {
   transition: 3s;
@@ -136,7 +142,7 @@ body {
 }
 .textmain {
   position: absolute;
-  bottom: 20px;
+  bottom: 130px;
   left: 10px;
 }
 .textmain a {
