@@ -28,13 +28,13 @@ body {
   align-items: center;
   width: 100%;
   margin-bottom: 30px;
-  background-color: black;
+  background-color: #222;
 }
 .video {
   position: relative;
   width: 25%;
   height: auto;
-  border: 3px solid black;
+  border: 3px solid #222;
   transition: 0.5s
 
 }
@@ -70,7 +70,7 @@ body {
 .sidebar_lft {
   float: left;
   width: 15%;
-  height: 700px;
+  height: 900px;
   background-color:  #fde9eb;
   text-transform: uppercase;
   border-right: 1px solid black;
@@ -80,7 +80,7 @@ body {
 .sidebar_lft a {
   text-decoration: none;
   color: black;
-  font-size: 15px;
+  font-size: 12px;
 }
 .sidebar_lft a:hover {
   color: #f27800;
@@ -89,8 +89,9 @@ body {
   list-style: none;
 }
 .sidebar_lft li {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   font-weight: 500;
+
 }
 .home {
   width: 100%;
@@ -119,8 +120,6 @@ body {
 .maintitle {
   display: flex;
   background: black;
-  /* align-items: center;
-  justify-content: center; */
   position: relative;
   width: 100%;
   height: auto%;
@@ -142,7 +141,7 @@ body {
 }
 .linkscore {
   position: absolute;
-  top: 160px;
+  bottom: 160px;
   left: 10px;
 }
 .linkscore a {
@@ -151,9 +150,16 @@ body {
   background: #f27800;
   padding: 10px 5;
 }
+.linkscore a {
+  transition: 1s
+}
+.linkscore a:hover {
+  background: black;
+}
+
 .textmain {
   position: absolute;
-  bottom: 110px;
+  bottom: 80px;
   left: 10px;
 }
 .textmain a {
@@ -169,13 +175,41 @@ body {
 }
 .comment {
   position: absolute;
-  bottom: 70px;
+  bottom: 40px;
   left: 10px;
 }
 .comment a {
   text-decoration: none;
   color: white;
   font-size: 15px;
+}
+.blackdiv {
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background: #222;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+
+
+}
+.blackdiv a {
+  text-decoration: none;
+  color: white;
+
+}
+.blackdiv a:hover {
+  text-decoration: underline;
+}
+
+.blackdiv i {
+  background: orange;
+  border-radius: 20%;
+  height: 1em;
+  width: 1em;
+  color: black;
 }
 .rgh_content {
   float: left;
