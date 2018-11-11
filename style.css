@@ -28,6 +28,7 @@ body {
   margin-top: 30px;
   background-color: #222;
 }
+
 .video {
   position: relative;
   width: 25%;
@@ -230,6 +231,7 @@ body {
   flex-wrap: wrap;
 
 }
+
 .mainright {
   margin-left: 10px;
 }
@@ -242,7 +244,33 @@ body {
   max-width: 100%
 }
 
+.mainbottomtext {
+  display: flex;
+}
+.mainlefttext {
+  margin-top: -15px;
+  width: 50%;
+  height: 200px;
+  background-color: #fde9eb;
+}
+.mainlefttext a {
+  text-decoration: none;
+  color: #f27800;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+.mainlefttext h4 a {
+  color: black;
 
+
+}
+.mainrighttext {
+  margin-top: -15px;
+  width: 50%;
+  height: 200px;
+  background-color: #fde9eb;
+  margin-left: 10px;
+}
 
 .rgh_content {
   float: left;
