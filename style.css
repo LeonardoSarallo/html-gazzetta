@@ -209,21 +209,29 @@ body {
   width: 1em;
   color: black;
 }
-
+.mainbottom {
+  display: flex;
+}
 .mainleft {
-  float: left;
+  display: flex;
   width: 50%;
   height: 200px;
 
 }
 .mainright {
-  float: left;
+  display: flex;
   width: 50%;
   height: 200px;
 
 }
 .mainleft, .mainright {
-  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+.mainright {
+  margin-left: 10px;
 }
 
 .mainleft img {
