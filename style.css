@@ -167,6 +167,16 @@ body {
 .score {
   font-size: 30px;
 }
+.comment {
+  position: absolute;
+  bottom: 70px;
+  left: 10px;
+}
+.comment a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
 .rgh_content {
   float: left;
   width: 35%;
