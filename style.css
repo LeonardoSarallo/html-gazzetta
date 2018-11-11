@@ -119,8 +119,8 @@ body {
 .maintitle {
   display: flex;
   background: black;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center;
+  justify-content: center; */
   position: relative;
   width: 100%;
   height: auto%;
@@ -140,9 +140,20 @@ body {
   background: black;
   opacity: 0.5
 }
+.linkscore {
+  position: absolute;
+  top: 160px;
+  left: 10px;
+}
+.linkscore a {
+  text-decoration: none;
+  color: white;
+  background: #f27800;
+  padding: 10px 5;
+}
 .textmain {
   position: absolute;
-  bottom: 130px;
+  bottom: 110px;
   left: 10px;
 }
 .textmain a {
