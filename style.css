@@ -209,33 +209,31 @@ body {
   width: 1em;
   color: black;
 }
-.mainbottom {
-  display: flex;
 
-
-
-}
 .mainleft {
-  display: flex;
+  float: left;
   width: 50%;
   height: 200px;
-
 
 }
 .mainright {
-  display: flex;
+  float: left;
   width: 50%;
   height: 200px;
 
-
-
-
+}
+.mainleft, .mainright {
+  margin-top: 20px;
 }
 
-.mainleft, .mainright img {
+.mainleft img {
   max-width: 100%;
 
 }
+.mainright img {
+  max-width: 100%
+}
+
 
 
 .rgh_content {
