@@ -209,21 +209,27 @@ body {
   width: 1em;
   color: black;
 }
+.mainbottom {
+  display: flex;
+
+
+
+}
 .mainleft {
-  float: left;
-  width: calc(50% - 5px);
+  display: flex;
+  width: 50%;
   height: 200px;
 
-  background: green;
+
 }
 .mainright {
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  float: left;
-  width: calc(50% - 5px);
+  width: 50%;
   height: 200px;
-  background:red;
+
+
+
+
 }
 
 .mainleft, .mainright img {
@@ -231,9 +237,7 @@ body {
 
 }
 
-.mainleft {
-  
-}
+
 .rgh_content {
   float: left;
   width: 35%;
