@@ -312,11 +312,14 @@ body {
   color: black;
   margin-left: 10px;
 
+
 }
 .bottomicon span:hover {
   color: #f27800;
 }
-
+.margin {
+  margin-bottom: 10px;
+}
 .rgh_content {
   float: left;
   width: 35%;
